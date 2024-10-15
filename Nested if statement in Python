@@ -1,0 +1,17 @@
+fan = input("What is your favourite tv show? ")
+if fan == "Breaking bad":
+  print("Good choice")
+  mainCharacter = input("Who is the main Character? ")
+  if mainCharacter == "Walter White":
+    print("Yep, thats the one! ")
+  else: 
+    print("How do you not know 'Walter white'")
+elif fan == "Better call saul":
+  print("Oh yeah I love that show, I would say on par with Breaking bad")
+  saulCharacter = input("Who's your favourite character? ")
+  if saulCharacter == "Saul goodman":
+    print("Good ol' slippin' Jimmy")
+  else:
+    print("Ah nice, I personally like Saul goodman")
+else:
+  print("Thats fun, have you watched Breaking bad or Better call saul")
